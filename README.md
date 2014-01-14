@@ -2,6 +2,10 @@
 
 No JavaScript!  Cross Browser Compatible!  You're welcome.
 
+###Screenshots
+
+
+
 ###History
 
 Let's face it.  Multi-line ellipsis on the web sucks.  That's why you're here.  You don't want to use a JavaScript solution because it just feels wrong to run JavaScript to style stuff.  Right?  Plus, it hurts your page perfomance.
