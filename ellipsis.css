@@ -25,7 +25,6 @@
   -moz-box-sizing: content-box;
   float: right;
   position: relative;
-  left: 100%;
   padding-right: 1px;
   text-align: right;
 }
