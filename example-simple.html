@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="ellipsis.css">
+    <style>
+      /* page specific styling */
+      .ellipsis-container {
+        border: 5px solid #AAA;
+        width: 200px;
+        height: 200px;
+      }
+
+      .ellipsis-content {
+        font-size: 16px;
+        line-height: 18px;
+      }
+
+      .ellipsis {
+
+
+        /* define size and position of ellipsis */
+        width: 60px;
+        margin-left: -60px;
+        top: -22px;
+
+        background: -webkit-gradient(linear, left top, right top,
+          from(rgba(255, 255, 255, 0)), to(white), color-stop(50%, white));
+        background: -moz-linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+        background: -o-linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+        background: -ms-linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), white 50%, white);
+      }
+
+      /* make the ellipsis a link */
+      .ellipsis a {
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        height: 10px;
+        background-color: #ddd;
+        border-radius: 3px;
+        margin-right: 3px;
+        padding: 3px;
+        line-height: 5px;
+      }
+
+      /* or just use ellipsis text */
+      .ellipsis span {
+        display: inline-block;
+        font-size: 16px;
+        height: 10px;
+        margin-right: 3px;
+        line-height: 5px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="ellipsis-container">
+      <div class="ellipsis-wrapper">
+        <p class="ellipsis-content">
+          Call me Ishmael.  Some years ago &ndash; never mind how long precisely &ndash; having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.  It is a way I have of driving off the spleen, and regulating the circulation.  Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people's hats off &ndash; then, I account it high time to get to sea as soon as I can.
+        </p>
+
+      </div>
+      <span class="ellipsis" href="#showMore">
+        <a href="#showMore">&hellip;</a>
+      </span>
+    </div>
+
+
+    <div class="ellipsis-container">
+      <div class="ellipsis-wrapper">
+        <p class="ellipsis-content">
+          Call me Ishmael.  Some years ago &ndash; never mind how long precisely &ndash; having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.  It is a way I have of driving off the spleen, and regulating the circulation.  Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people's hats off &ndash; then, I account it high time to get to sea as soon as I can.
+        </p>
+
+      </div>
+      <span class="ellipsis" href="#showMore">
+        &hellip;
+      </span>
+    </div>
+
+  </body>
+</html>
