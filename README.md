@@ -20,4 +20,5 @@ I set out to see if it was possible to create a pure CSS solution with some CSS 
 ###Examples
 
 * [Simple example](http://codepen.io/ericdrowell/pen/edgKB)
+* [Simple example without ellipsis](http://codepen.io/ericdrowell/pen/gnvJw)
 * [Ellipsis that's a clickable link](http://codepen.io/ericdrowell/pen/kesAF)
