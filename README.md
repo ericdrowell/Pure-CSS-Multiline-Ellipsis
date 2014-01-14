@@ -14,4 +14,5 @@ I set out to see if it was possible to create a pure CSS solution with some CSS 
 
 ##Examples
 
-Codepen example: [http://codepen.io/ericdrowell/pen/kesAF](http://codepen.io/ericdrowell/pen/kesAF)
+* [Simple example](http://codepen.io/ericdrowell/pen/edgKB)
+* [Ellipsis that's a clickable link](http://codepen.io/ericdrowell/pen/kesAF)
