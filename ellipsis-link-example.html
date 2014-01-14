@@ -11,17 +11,19 @@
       }
 
       .ellipsis-content {
+        /* it's critical to set a fixed font-size and line-height in order for
+        the ellipsis position to be predictable */
         font-size: 16px;
         line-height: 18px;
       }
 
       .ellipsis {
-        /* set width of ellipsis */
+        /* set width of ellipsis.  width must equal margin-left */
         width: 60px;
         margin-left: -60px;
 
         /* set ellipsis position */
-        top: -22px;
+        bottom: 22px;
         left: 201px;
 
         /* add a gradient background */
@@ -38,12 +40,16 @@
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
-        height: 10px;
+        height: 16px;
         background-color: #ddd;
         border-radius: 3px;
         margin-right: 3px;
         padding: 3px;
         line-height: 5px;
+
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
       }
     </style>
   </head>
