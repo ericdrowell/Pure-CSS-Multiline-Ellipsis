@@ -1,3 +1,9 @@
+/*
+ * Pre CSS Multi-line Ellipsis
+ * github repo: https://github.com/ericdrowell/Pure-CSS-Multiline-Ellipsis
+ * concept from http://www.mobify.com/blog/multiline-ellipsis-in-pure-css/
+ */
+
 .ellipsis-container {
   overflow: hidden;
 }
