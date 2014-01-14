@@ -1,4 +1,7 @@
-Pure-CSS-Multiline-Ellipsis
-===========================
+#Pure CSS Multi-line Ellipsis
 
-Pure CSS Muiltiline Ellipsis.  No JavaScript!  Cross Browser Compatible!  You're welcome.
+No JavaScript!  Cross Browser Compatible!  You're welcome.
+
+##History
+
+Codepen example: [http://codepen.io/ericdrowell/pen/kesAF](http://codepen.io/ericdrowell/pen/kesAF)
